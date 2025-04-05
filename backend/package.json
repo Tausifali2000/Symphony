@@ -4,9 +4,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/index.js",
-		"start": "node src/index.js",
-		"seed:songs": "node src/seeds/songs.js",
-		"seed:albums": "node src/seeds/albums.js"
+    "start": "node src/index.js",
+    "seed:songs": "node src/seeds/songs.js",
+    "seed:albums": "node src/seeds/albums.js"
   },
   "keywords": [],
   "type": "module",
@@ -25,6 +25,6 @@
     "socket.io": "^4.8.1"
   },
   "devDependencies": {
-    "nodemon": "^3.1.7"
+    "nodemon": "^3.1.9"
   }
 }
